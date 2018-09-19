@@ -4,7 +4,7 @@ This is a basic compiler created in C++ which parses through code of my custom l
 
 ## The Current Behavior of the Program
 
-The program can check to see if the code written in a file is syntactically correct through a **lexographical analyzer** and throw any errors if found.
+The program can check to see if the code written in a file is syntactically correct through a **lexographical analyzer** and throws any errors if found.
 
 If none are found, the program will output all lexemes found in the code file
 
@@ -13,6 +13,7 @@ If none are found, the program will output all lexemes found in the code file
 One example of the basic code can be found under **sample.txt**
 
 A sample command line argument would then be something like:
+
 ```-v sample.txt```
 
 The output of that sample would look something like this:
