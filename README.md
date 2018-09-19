@@ -25,5 +25,5 @@ The output of that sample would look like this:
 
 In the near future, my plans are to:
 - Make the compiler actually carry out the commands written in the code file
-- Expand upon the language with loops, data structures, etc
+- Expand upon the language with loops, data structures, and more keywords
 - Refine the code
