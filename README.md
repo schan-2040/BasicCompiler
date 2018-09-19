@@ -10,7 +10,7 @@ If none are found, the program will output all lexemes found in the code file us
 
 ### Example
 
-One example of a basic code can be found under **sample.txt**
+One example of a basic code file can be found under **sample.txt**
 
 A sample command line argument would then be something like:
 
