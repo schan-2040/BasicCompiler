@@ -1,2 +1,2 @@
 # Basic Compiler
-This is a basic compiler created in C++ which parses through code of my custom language. The code must be written in a .txt file to be opened and parsed and the file name must be passed as a command argument.
+This is a basic compiler created in C++ which parses through code of my custom language. The code must be written and saved in a separate file to be opened and parsed. The file name must be passed as a command argument.
