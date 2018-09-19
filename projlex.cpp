@@ -37,7 +37,6 @@ int stringCounter = 0;
 Token getNextToken(istream *in, int *linenum)
 {
     linenumber = 0;
-//    int linecount = linenumber;
 
 //////////////////////////////////////////////////////////////////
     //Obtain the entire file content and put into a string
@@ -57,7 +56,6 @@ Token getNextToken(istream *in, int *linenum)
     for(i = 0; i < content.length(); i++)
     {
         character = content[i];
-        //characterForDebug = character;
 
         //This will handle strings -- Indicated with a beginning "
         if(character == '"')
@@ -69,6 +67,7 @@ Token getNextToken(istream *in, int *linenum)
                 temp += content[i];
                 i++;
             }
+            
             //Once breaking out of this while loop, determine why
             if(content[i] == '"')
             {
@@ -127,8 +126,8 @@ Token getNextToken(istream *in, int *linenum)
                 {
                     linenumber = linenumber + 1;
                 }
+            
                 //Successfully obtained an integer value
-
                 Token intToken(ICONST, temp, *linenum);
                 temp = "";
                 tokenCollector.push_back(intToken);
@@ -165,6 +164,7 @@ Token getNextToken(istream *in, int *linenum)
                 temp += content[i];
                 i++;
             }
+            
             //Once out of loop, must mean obtained identifier lexeme -- Important to identify if it's a keyword
             if(temp == "set")
             {
@@ -278,11 +278,13 @@ Token getNextToken(istream *in, int *linenum)
 
             continue;
         }
+        
         //Handles spaces
         else if(character == ' ' || character == '\0')
         {
             continue;
         }
+        
         //Handles comments
         else if(character == '#')
         {
@@ -295,7 +297,6 @@ Token getNextToken(istream *in, int *linenum)
             if(content[i] == '\n')
             {
                 linenumber = linenumber + 1;
-//                linecount = linenumber;
             }
             //Once out of this loop, we have reached the end of the line and so this comment must be discarded
             temp = "";
@@ -389,7 +390,6 @@ void spitAllTokens(std::vector<Token> tokenVector)
                     std::cout << typeInString(temp.GetTokenType()) << "(" << temp.GetLexeme() << ")\n";
                 }
             }
-    //        std::cout << temp.GetLinenum() << "\n";
         }
     }
     if(mciFlag)
@@ -470,6 +470,7 @@ void spitAllTokens(std::vector<Token> tokenVector)
         }
         std::cout << "\nLength of longest string: " << largest_str << "\n";
     }
+    
     //If no flags
     if(!vFlag && !mciFlag && !sumFlag)
     {
@@ -559,5 +560,3 @@ string typeInString(int enumeratorVal)
     }
     return "";
 }
-
-
