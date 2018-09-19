@@ -16,4 +16,4 @@ A sample command line argument would then be something like:
 ```-v sample.txt```
 
 The output of that sample would look something like this:
-
+![alt text] (https://github.com/schan-2040/BasicCompiler/blob/master/Screenshot%20(6).png)
