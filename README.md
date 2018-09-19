@@ -11,7 +11,9 @@ If none are found, the program will output all lexemes found in the code file
 ### Example
 
 One example of the basic code can be found under **sample.txt**
+
 A sample command line argument would then be something like:
 ```-v sample.txt```
+
 The output of that sample would look something like this:
 
