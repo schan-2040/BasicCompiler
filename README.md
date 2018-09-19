@@ -16,5 +16,4 @@ A sample command line argument would then be something like:
 ```-v sample.txt```
 
 The output of that sample would look something like this:
-![Alt text](BasicCompiler/Screenshot (6).png)
     
