@@ -16,6 +16,6 @@ A sample command line argument would then be something like:
 
 ```-v sample.txt```
 
-The output of that sample would look something like this:
+The output of that sample would look like this:
 
 ![screenshot 6](https://user-images.githubusercontent.com/38062430/45729606-39de6000-bb9b-11e8-8f45-a68e1ee4334e.png)
