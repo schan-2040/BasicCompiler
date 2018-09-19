@@ -1,0 +1,71 @@
+# depslib dependency file v1.0
+1522290953 source:d:\shaurya98\codeblocksrepository\program_three\main.cpp
+	<iostream>
+	<fstream>
+	<sstream>
+	"projlex.h"
+	"globalvar.h"
+
+1522223370 d:\shaurya98\codeblocksrepository\program_three\projlex.h
+	<string>
+	<iostream>
+
+1522298969 d:\shaurya98\codeblocksrepository\program_three\globalvar.h
+	<vector>
+	"projlex.h"
+
+1522298969 source:d:\shaurya98\codeblocksrepository\program_three\projlex.cpp
+	"globalvar.h"
+	"projlex.h"
+	<iostream>
+	<vector>
+	<map>
+	<algorithm>
+	<set>
+	<stdlib.h>
+
+1522572561 source:d:\shaurya98\codeblocksrepository\program_three\parser.cpp
+	<iostream>
+	<vector>
+	"globalvar.h"
+	"parsetree.h"
+
+1522572560 d:\shaurya98\codeblocksrepository\program_three\parsetree.h
+	<iostream>
+	"projlex.h"
+
+1522290953 source:d:\shaurya98\documents\sophomore\2nd sem\cs 280 002\projects\program_three\main.cpp
+	<iostream>
+	<fstream>
+	<sstream>
+	"projlex.h"
+	"globalvar.h"
+
+1522223370 d:\shaurya98\documents\sophomore\2nd sem\cs 280 002\projects\program_three\projlex.h
+	<string>
+	<iostream>
+
+1522298969 d:\shaurya98\documents\sophomore\2nd sem\cs 280 002\projects\program_three\globalvar.h
+	<vector>
+	"projlex.h"
+
+1522703781 source:d:\shaurya98\documents\sophomore\2nd sem\cs 280 002\projects\program_three\parser.cpp
+	<iostream>
+	<vector>
+	"globalvar.h"
+	"parsetree.h"
+
+1522572560 d:\shaurya98\documents\sophomore\2nd sem\cs 280 002\projects\program_three\parsetree.h
+	<iostream>
+	"projlex.h"
+
+1522298969 source:d:\shaurya98\documents\sophomore\2nd sem\cs 280 002\projects\program_three\projlex.cpp
+	"globalvar.h"
+	"projlex.h"
+	<iostream>
+	<vector>
+	<map>
+	<algorithm>
+	<set>
+	<stdlib.h>
+
