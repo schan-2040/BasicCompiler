@@ -48,8 +48,8 @@ enum TType {
 
 class Token {
 	TType	tt;
-	string		lexeme;
-	int			lnum;
+	string	lexeme;
+	int	lnum;
 
 public:
 	Token() {
