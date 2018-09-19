@@ -1,12 +1,12 @@
 # Basic Compiler
 
-This is a basic compiler created in C++ which parses through code of my custom language. The code must be written and saved in a separate file to be opened and parsed. The program must be given a flag along with the filename as a command line argument to analyze the file.
+This is a basic compiler written in C++ which parses through code of my custom language. The code must be written and saved in a separate file to be opened and parsed. The program must be given a flag along with the filename as a command line argument to analyze the file.
 
 ## The Current Behavior of the Program
 
-The program can check to see if the code written in a file is syntactically correct through a **lexographical analyzer** and throws any errors if found.
+The program can check to see if the code written in the file is syntactically correct through a **lexographical analyzer** and throws any errors if found.
 
-If none are found, the program will output all lexemes found in the code file
+If none are found, the program will output all lexemes found in the code file using the ```-v``` flag, or will display the most common lexeme found using the ```-mci``` flag
 
 ### Example
 
