@@ -19,3 +19,11 @@ A sample command line argument would then be something like:
 The output of that sample would look like this:
 
 ![screenshot 6](https://user-images.githubusercontent.com/38062430/45729606-39de6000-bb9b-11e8-8f45-a68e1ee4334e.png)
+
+
+## Future Plans
+
+In the near future, my plans are to:
+- Make the compiler actually carry out the commands written in the code file
+- Expand upon the language with loops, data structures, etc
+- Refine the code
