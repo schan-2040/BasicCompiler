@@ -4,7 +4,7 @@ This is a basic compiler written in C++ which parses through code of my custom l
 
 ## The Current Behavior of the Program
 
-The program can check to see if the code written in the file is syntactically correct through a **lexicographical analyzer** and throws any errors if found.
+The program can check to see if the code written in the file is syntactically correct through a **lexical analyzer** and throws any errors if found.
 
 If none are found, the program will output all lexemes found in the code file using the ```-v``` flag, or will display the most common lexeme found using the ```-mci``` flag
 
